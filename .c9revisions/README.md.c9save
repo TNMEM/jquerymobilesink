@@ -1,0 +1,9 @@
+{"ts":1375060867839,"silentsave":true,"restoring":false,"patch":[[{"diffs":[[1,"This is a basic kitchen sink app made with jQuery Mobile. "]],"start1":0,"start2":0,"length1":0,"length2":58}]],"length":58}
+{"contributors":[],"silentsave":true,"ts":1375060880950,"patch":[[{"diffs":[[1,"Kitchen Sink"],[0,"This is "]],"start1":0,"start2":0,"length1":8,"length2":20}]],"length":70,"saved":false}
+{"ts":1375060881897,"patch":[[{"diffs":[[0,"hen Sink"],[1,"\n="],[0,"This is "]],"start1":4,"start2":4,"length1":16,"length2":18}]],"length":72,"saved":false}
+{"ts":1375060884688,"patch":[[{"diffs":[[0,"en Sink\n"],[1,"=========="],[0,"=This is"]],"start1":5,"start2":5,"length1":16,"length2":26}]],"length":82,"saved":false}
+{"ts":1375060885857,"patch":[[{"diffs":[[0,"========"],[1,"="],[0,"This is "]],"start1":16,"start2":16,"length1":16,"length2":17}]],"length":83,"saved":false}
+{"ts":1375060887368,"patch":[[{"diffs":[[0,"========"],[1,"\n\n"],[0,"This is "]],"start1":17,"start2":17,"length1":16,"length2":18}]],"length":85,"saved":false}
+{"ts":1375060890947,"patch":[[{"diffs":[[0," Mobile."],[-1," "]],"start1":76,"start2":76,"length1":9,"length2":8}]],"length":84,"saved":false}
+{"ts":1375060892091,"patch":[[{"diffs":[[0," Mobile."],[1,"\n"]],"start1":76,"start2":76,"length1":8,"length2":9}]],"length":85,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1376156195597,"patch":[[{"diffs":[[0,"Mobile.\n"],[1,"Plus a lot os mapping stuff in geolocation.\n\n"]],"start1":77,"start2":77,"length1":8,"length2":53}]],"length":130,"saved":false}

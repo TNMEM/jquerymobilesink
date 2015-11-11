@@ -1,0 +1,5 @@
+{"ts":1376942997334,"silentsave":true,"restoring":false,"patch":[[]],"length":0}
+{"contributors":[],"silentsave":false,"ts":1376943005628,"patch":[[{"diffs":[[1,"<?php\n  \n\t$dbhost = 'awsmysql.cuuagsmfyvhg.us-east-1.rds.amazonaws.com';\n\t$dbuser = 'TESTONLY';\n\t$dbpass = 'TESTONLY';\n\t$dbname = 'TESTONLY';\n    $tabname = 'jqm_employee';\n\n?>\n"]],"start1":0,"start2":0,"length1":0,"length2":177}]],"length":177,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1376943045885,"patch":[[{"diffs":[[0,"TONLY';\n"],[-1,"  "],[0,"  $tabna"]],"start1":134,"start2":134,"length1":18,"length2":16}]],"length":175,"saved":false}
+{"ts":1376943137067,"patch":[[{"diffs":[[0," = '"],[-1,"jqm_employee';"],[1,"14huvMa_IC-A_C1AwNchipdxMdgQvoy_Y7IUgk3k'; // april 2012"],[0,"\n\n?>"]],"start1":152,"start2":152,"length1":22,"length2":64}]],"length":217,"saved":false}
+{"contributors":[],"silentsave":false,"ts":1377010299428,"patch":[[{"diffs":[[0,"LY';"],[-1,"\n  $tabname = '14huvMa_IC-A_C1AwNchipdxMdgQvoy_Y7IUgk3k'; // april 2012"],[0,"\n\n?>"]],"start1":137,"start2":137,"length1":79,"length2":8}]],"length":146,"saved":false}

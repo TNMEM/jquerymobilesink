@@ -1,0 +1,29 @@
+// lou king add thePano arg so that control can be in street view ...
+// this is how the whole "addControl" looks now, but with new gmaps.js may have to adjust ...
+
+// lou king changes ...
+GMaps.prototype.addControl = function(options, thePano) {
+  var position = google.maps.ControlPosition[options.position.toUpperCase()];
+
+  delete options.position;
+  
+  var control = this.createControl(options);
+  this.controls.push(control);
+  
+  // tests ...
+  if (typeof thePano === 'undefined') {this.map.controls[position].push(control);}
+  if (typeof thePano !== 'undefined') {thePano.controls[position].push(control);}
+  // ... end of lou king add
+  
+  return control;
+};
+
+// unchanged...
+GMaps.prototype.addControl = function(options) {
+  var control = this.createControl(options);
+  
+  this.controls.push(control);
+  this.map.controls[control.position].push(control);
+
+  return control;
+};

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>PhoneGap Kitchen Sink - GMaps</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  
+  <body>
+    <div data-role="page" id="geolocation_gmaps" data-theme="d">
+      <div data-role="panel" id="votPanel" data-position="right" data-display="reveal" data-animate="true" data-dismissible="true">
+        <form id="votPanelForm">
+          <label for="votPanelName">Name from Elec. Comm.:</label>
+          <input type="text" name="textName" id="votPanelName" value="">
+          <p id="votPanelPlace">'Place'holder</p>
+          <fieldset data-role="controlgroup" data-type="horizontal" data-mini="true">
+            <legend>Contact Types:</legend>
+            <input type="checkbox" name="checkCall" id="votPanelCall">
+            <label for="votPanelCall">Calls</label>
+            <input type="checkbox" name="checkText" id="votPanelText">
+            <label for="votPanelText">Texts</label>
+            <input type="checkbox" name="checkSign" id="votPanelSign">
+            <label for="votPanelSign">Yard Sign</label>
+          </fieldset>
+          <label for="votPanelTel">Telephone Number:</label>
+          <input type="tel" name="tel" id="votPanelTel" value="">
+          <label for="votPanelComm">Comment:</label>
+          <textarea name="textareaComm" id="votPanelComm"></textarea>
+          <hr>
+          <label for="votPanelID">Your Identity:</label>
+          <input type="text" name="textID" id="votPanelID" value="">
+          <div align="right">
+            <a href="#geolocation_gmaps" id="votPanelCancel" data-rel="close" data-role="button" data-icon="delete" data-inline="true" data-mini="true">Cancel</a>
+            <a href="#geolocation_gmaps" id="votPanelSave" data-rel="close" data-role="button" data-icon="grid" data-inline="true" data-mini="true">Save</a>
+          </div>
+        </form>
+      </div>
+      <div data-role="header">
+        <a href="#" data-rel="back" data-icon="arrow-l">Back</a>
+        <h1>Geolocation</h1>
+      </div>
+      <div data-role="content" style="padding:0px;">
+        <div id="map_canvas"></div>
+      </div>
+      <script type="text/javascript" src="js/api/geolocation_gmaps.js"></script>
+    </div>
+  </body>
+
+</html>

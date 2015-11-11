@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  
+  <head>
+    <title>PhoneGap Kitchen Sink</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+  </head>
+  
+  <body>
+    <div data-role="page" id="home" data-theme="d">
+      <div data-role="header">
+        <a href="#" data-rel="back" data-icon="arrow-l">Back</a>
+        <h1>Kitchen Sink</h1>
+      </div>
+      <div data-role="content">
+        <div data-role="collapsible-set">
+          <div data-role="collapsible" data-collapsed="false">
+            <h3>Geolocate</h3>
+            <div>
+              <ul id="geolist" data-role="listview" data-inset="true">
+                <li class="geolistAddSafe" data-role="list-divider">Fusion (fallback) - Needs Google</li>
+                <li class="geolistAddSafe">
+                  <a href="geolocation_gmaps.html" onclick="window.votlay='14huvMa_IC-A_C1AwNchipdxMdgQvoy_Y7IUgk3k'; window.pctlay='1TqqJqLjrtojFkLBCCVfiMzvfsuCB9Z-HRMAl-0Q'; window.blklay='1pk_uYm5kkcaC0K2ahfRlcgOGEQiezfAmwdOPhXQ'; window.pty='%'; window.pcts='PCT in (01601,01603,01700,02001,02800,03601)'; window.geolat=35.1495; window.geolng=-90.0489; window.presVP=false;">Midtown Top Voters</a>
+                </li>
+                <!-- AJAX will fill in items. -->
+              </ul>
+            </div>
+            <!--
+            <div>
+              <ul data-role="listview" data-inset="true">
+                <li data-role="list-divider">KML - Needs Google+Host</li>
+                <li>
+                  <a href="geolocation_orig.html" onclick='window.presVP=true; window.indInd=0;'>Random</a>
+                </li>
+                <li>
+                  <a href="geolocation_orig.html" onclick='window.presVP=false; window.indInd=1;'>16-1 Top Voters</a>
+                </li>
+                <li>
+                  <a href="geolocation_orig.html" onclick='window.presVP=false; window.indInd=2;'>16-1 Top DEM</a>
+                </li>
+                <li>
+                  <a href="geolocation_orig.html" onclick='window.presVP=false; window.indInd=3;'>16-1 Top GOP</a>
+                </li>
+              </ul>
+            </div>
+            -->
+          </div>
+          <div data-role="collapsible">
+            <h3>PhoneGap</h3>
+            <ul data-role="listview" data-inset="true">
+              <li>
+                <a href="accelerometer.html">Accelerometer</a>
+              </li>
+              <li>
+                <a href="camera.html">Camera</a>
+              </li>
+              <li>
+                <a href="contacts.html">Contacts</a>
+              </li>
+              <li>
+                <a href="device.html">Device</a>
+              </li>
+              <li>
+                <a href="network.html">Network</a>
+              </li>
+              <li>
+                <a href="notification.html">Notification</a>
+              </li>
+            </ul>
+          </div>
+          <script type="text/javascript" src="js/api/home.js"></script>
+        </div>
+      </div>
+  </body>
+
+</html>
